@@ -84,7 +84,7 @@ namespace ComputerNets3
                 NodesExpectationsSeries = new Series();
                 NodesExpectationsSeries.Name = $"r = {r}";
                 NodesExpectationsSeries.ChartType = SeriesChartType.Line;
-                NodesExpectationsSeries.BorderWidth = 3;
+                NodesExpectationsSeries.BorderWidth = 2;
                 NodesExpectationsChartN.Series.Add(NodesExpectationsSeries);
                 Legend legend = NodesExpectationsChartN.Legends.Add(r.ToString());
                 NodesExpectationsSeriesN.Add(r, NodesExpectationsSeries);
@@ -113,7 +113,7 @@ namespace ComputerNets3
                 MeanNumberOfNodesInMainComponentSeries = new Series();
                 MeanNumberOfNodesInMainComponentSeries.Name = $"n = {n}";
                 MeanNumberOfNodesInMainComponentSeries.ChartType = SeriesChartType.Line;
-                MeanNumberOfNodesInMainComponentSeries.BorderWidth = 4;
+                MeanNumberOfNodesInMainComponentSeries.BorderWidth = 2;
                 MeanNumberOfNodesInMainComponentChartR.Series.Add(MeanNumberOfNodesInMainComponentSeries);
                 MeanNumberOfNodesInMainComponentChartR.Legends.Add(n.ToString());
                 MeanNumberOfNodesInMainComponentSeriesR.Add(n, MeanNumberOfNodesInMainComponentSeries);
@@ -124,7 +124,7 @@ namespace ComputerNets3
                 NodesExpectationsSeries = new Series();
                 NodesExpectationsSeries.Name = $"n = {n}";
                 NodesExpectationsSeries.ChartType = SeriesChartType.Line;
-                NodesExpectationsSeries.BorderWidth = 5;
+                NodesExpectationsSeries.BorderWidth = 2;
                 NodesExpectationsChartR.Series.Add(NodesExpectationsSeries);
                 Legend legend = NodesExpectationsChartR.Legends.Add(n.ToString());
                 NodesExpectationsSeriesR.Add(n, NodesExpectationsSeries);
